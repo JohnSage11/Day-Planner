@@ -1,0 +1,153 @@
+*{
+    margin:0px;
+    padding: 0px, auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    font-size: 100%;
+}
+nav {
+border: 1px solid blue;
+padding: 2%;
+background-image: radial-gradient(blue, black);
+font-size: larger;
+display: flex;
+flex-direction: column;
+}
+
+a {
+    background-color:transparent;
+}
+
+#b4 {
+    color:rgb(151, 30, 30);
+    font-weight: bold;
+    text-decoration:underline;
+    
+}
+
+#John, #Sage, #subscript {
+    color: white;
+    padding-left: 70%;
+    font-size: 150%;
+    font-family:cursive;
+    font-style: italic;
+    margin: -9px;
+}
+#subscript{
+    font-size: xx-small;
+    padding-left: 74%;
+    margin:7px;
+}
+#Sage{
+    padding-left: 72%;
+}
+/*Done with Navbar design*/
+/* Body */
+section{
+    display:grid;
+    place-items:center;
+    margin-left:2.5em;
+}
+#new {
+    height: 2em auto;
+    width: 11em auto;
+    display: flex;
+    margin: auto;
+     padding-left: 2%;
+     padding-right: 2%;
+     padding-top:5px;
+     padding-bottom:5px;
+     border: 0.5px solid rgb(22, 21, 21);
+     border-radius: 17%;
+     background-color: rgb(22, 22, 122);
+     color: rgb(145, 4, 4);
+     font-family:Bahnschrift;
+     font-size:small;
+     font-weight: bold;
+     margin-left: 45%;
+    }
+    #new:active{
+        color:white;
+        font-size:x-small;
+    }
+    #bottom{
+        height: 2em auto;
+    width: 5em auto;
+    display: flex;
+    margin: auto;
+    margin-left:45%;
+     padding-left: 2%;
+     padding-right: 2%;
+     padding-top:5px;
+     padding-bottom:5px;
+     border: 0.5px solid rgb(22, 21, 21);
+     border-radius: 17%;
+     background-color: rgb(22, 22, 122);
+     color: rgb(255, 246, 246);
+     font-family:cursive;
+     font-size:x-small;
+     font-style: italic;
+     cursor:pointer;
+    }
+    #top{
+        height:2em auto;
+        width:8em;
+        margin: 2em auto;
+    margin-left:45%;
+        text-decoration: underline;
+        border: 1px solid black;
+        text-align: center;
+        border-radius: 0.5em; 
+        background-color: black;
+        color: white;
+        font-size: x-small;
+        font-weight:bold;
+        text-align: center;
+        padding:0.3%;
+    }
+
+input[type=text]{
+    margin-right: 2.5em;
+    margin-left: 2.5em;
+    padding-right: 2em;
+    padding-left: 2em;
+    font-family:cursive;
+    font-size:x-small;
+    font-style: italic;
+    text-align: center;
+}
+.set{
+    width: 4em;
+    background-color: black;
+    color:white;
+    border:1px solid black;
+    box-sizing: border-box;
+    border-radius:15%;
+    font-family: serif;
+    font-weight:1000;
+}
+.set:active{
+    color:red;
+    font-size:small;
+}
+#bottom:active{
+    color:red;
+    font-size:small;
+}
+span {
+    font-family: cursive;
+    font-style: italic;
+    margin-left:3em;
+    font-size: small;
+}
+  label{
+    box-sizing: border-box;
+  }
+input[type=checkbox]{
+   accent-color: blue;
+    height:20px;
+    width:20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

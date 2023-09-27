@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My To Do Planner </title>
+        <link  rel="stylesheet"  type= "text/css" href="stylefortodo.css"></link>
+        <script src="control.js"></script>
+    </head>
+    <body>
+        <div class = 'navbar'>
+            <nav>
+                <a id ='b4'>Daily Task Planner</a>
+                <a id ='John'>John</a>
+                <a id ='Sage'>Sage</a>
+                <a id ='subscript'>Smart Apps</a>
+            </nav>
+        </div>
+
+<!--New Plan-->
+
+<section>
+    <header id="top">
+        TODAY
+    </header>
+<!--Next Task-->
+<div id="action"><label><input type="checkbox" id="check"></label><span id="out1"></span> <input type="text" id = 'activity1' placeholder= 'What are we doing today?'> <button class="set" onclick="return set1()">SET</button></div>
+<br/>
+<div id="action"><label><input type="checkbox" id="check"></label><span id="out2"></span> <input type="text" id = 'activity2' placeholder= 'What are we doing today?'> <button class="set" onclick="return set2()">SET</button></div> 
+<br/>
+<div id="action"><label><input type="checkbox" id="check"></label><span id="out3"></span> <input type="text" id = 'activity3' placeholder= 'What are we doing today?'> <button class="set" onclick="return set3()">SET</button></div> 
+<br/>
+<div id="action"><label><input type="checkbox" id="check"></label><span id="out4"></span> <input type="text" id = 'activity4' placeholder= 'What are we doing today?'> <button class="set" onclick="return set4()">SET</button></div> 
+<br/>
+<div id="action"><label><input type="checkbox" id="check"></label><span id="out5"></span> <input type="text" id = 'activity5' placeholder= 'What are we doing today?'> <button class="set" onclick="return set5()">SET</button></div> 
+<br/>
+<header id='bottom'>MORE</header>
+<br/>
+</section>
+<!--Adding  a new plan-->
+<button id="new">TOMORROW</button>
+
+    </body>
+</html>
